@@ -197,7 +197,7 @@ ul.thin li {
     overflow: hidden;
     background: #0D1117;
     position: relative;
-    top: 80px; /* Increased to account for fixed menu and info */
+    top: 80px; /* Increased to account for fixed menu and userinfo */
 }
 #wrapper {
     width: 100%;
@@ -261,10 +261,10 @@ ul.thin li {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra */
 }
 
-#chat #nav_irc, #collage #nav_collages, #forums #nav_forums, #index #nav_index, #moderar #nav_moderar, #requests #nav_requests, #rules #nav_rules, #staff #nav_staff, #top10 #nav_top10, #torrents #nav_torrents, # #nav_infor, #wiki #nav_wiki {
+#chat #nav_irc, #collage #nav_collages, #forums #nav_forums, #index #nav_index, #moderar #nav_moderar, #requests #nav_requests, #rules #nav_rules, #staff #nav_staff, #top10 #nav_top10, #torrents #nav_torrents, #user #nav_userinfor, #wiki #nav_wiki {
     /background-color: #151B23;
 }
-#info {
+#userinfo {
     background: #0D1117;
     color: #b5b5b5;
     width: 100%;
@@ -273,7 +273,7 @@ ul.thin li {
     z-index: 6000; /* Slightly lower than menu to stack correctly */
     min-width: 850px;
     position: fixed; /* Changed from relative to fixed */
-    top: -233px; /* Positioned below menu, assuming menu height ~44px */
+    top: -1px; /* Positioned below menu, assuming menu height ~44px */
 }
 /* Ícones de Emojis para estatísticas */
 #userinfo_stats li#stats_seeding a::before {
