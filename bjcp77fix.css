@@ -273,7 +273,7 @@ ul.thin li {
     z-index: 6000; /* Slightly lower than menu to stack correctly */
     min-width: 850px;
     position: fixed; /* Changed from relative to fixed */
-    top: -1px; /* Positioned below menu, assuming menu height ~44px */
+    top: 33px; /* Positioned below menu, assuming menu height ~44px */
 }
 /* Ícones de Emojis para estatísticas */
 #userinfo_stats li#stats_seeding a::before {
