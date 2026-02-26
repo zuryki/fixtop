@@ -1,5 +1,7 @@
 /* ============================================================
    BJ-SHARE — BARBIE THEME v1.0
+   Desenvolvido com paleta Barbie profissional
+   Autor: Antigravity | 2026
    ============================================================ */
 
 /* ── Google Fonts ── */
@@ -183,10 +185,13 @@ input[type=submit]:disabled {
 }
 
 #header {
-    background: url('https://i.imgur.com/bSLRx7m.png') no-repeat center;
+    background: url('https://i.imgur.com/bSLRx7m.png') no-repeat center top;
     background-color: #0D0007;
+    background-size: cover;
+    border-bottom: 1px solid var(--border-color);
     width: 100%;
     padding: 0;
+    box-shadow: 0 2px 20px rgba(255, 31, 142, 0.15);
 }
 
 #content {
